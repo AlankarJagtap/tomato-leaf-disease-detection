@@ -1,41 +1,42 @@
 🍅 Tomato Leaf Disease Detection
+<p align="center"> <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs41348-022-00608-5/MediaObjects/41348_2022_608_Fig1_HTML.jpg" alt="Tomato Leaf Disease Example" width="600"> </p>
 
-This project is a Streamlit web application that uses deep learning models (VGG16 and MobileNetV2) to classify tomato leaf images into different disease categories or as healthy.
-It supports English & Hindi and provides treatment suggestions for each disease.
+A Streamlit web application that uses deep learning models (VGG16 and MobileNetV2) to classify tomato leaf images into different disease categories or as healthy.
+The app supports English & Hindi and provides disease-specific treatment suggestions.
 
 ✨ Features
 
 📤 Upload tomato leaf images (.jpg, .jpeg, .png)
 
-🔍 Detects 10 classes including common tomato leaf diseases and healthy leaves
+🔍 Detects 10 tomato leaf disease classes + healthy leaves
 
-🌐 Language support: English & Hindi
+🌐 Bilingual support: English & हिन्दी
 
-📊 Shows prediction confidence (%)
+📊 Displays prediction confidence (%)
 
-💡 Provides treatment tips and prevention methods
+💡 Provides treatment & prevention tips
 
 🧪 Disease Classes
 
-Bacterial Spot
+🦠 Bacterial Spot
 
-Early Blight
+🍂 Early Blight
 
-Late Blight
+🍁 Late Blight
 
-Leaf Mold
+🌫️ Leaf Mold
 
-Septoria Leaf Spot
+🔴 Septoria Leaf Spot
 
-Two-Spotted Spider Mite
+🕷️ Two-Spotted Spider Mite
 
-Target Spot
+🎯 Target Spot
 
-Yellow Leaf Curl Virus
+🍃 Yellow Leaf Curl Virus
 
-Mosaic Virus
+🧩 Mosaic Virus
 
-Healthy
+✅ Healthy
 
 🛠️ Tech Stack
 
@@ -55,8 +56,8 @@ The trained models are too large for GitHub. Please download them from Google Dr
 
 After downloading, place the files in the project root directory.
 
-⚠️ Without these model files, the app will not be able to make predictions.
+⚠️ Without these files, the app cannot make predictions.
 
-🚀 How to Run
+🚀 How to Run Locally
 
 Clone the repository:
