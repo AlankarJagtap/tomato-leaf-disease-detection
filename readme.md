@@ -1,19 +1,19 @@
-🌿 Crop Disease Classification
+🍅 Tomato Leaf Disease Detection
 
-This project is a Streamlit web application that uses a pre-trained VGG16 deep learning model to classify crop leaf images into different disease categories or as healthy.
-It provides bilingual support (English & हिन्दी) and displays disease-specific information along with treatment suggestions.
+This project is a Streamlit web application that uses deep learning models (VGG16 and MobileNetV2) to classify tomato leaf images into different disease categories or as healthy.
+It supports English & Hindi and provides treatment suggestions for each disease.
 
 ✨ Features
 
-📤 Upload crop leaf images (.jpg, .jpeg, .png)
+📤 Upload tomato leaf images (.jpg, .jpeg, .png)
 
-🔍 Detects 10 classes including common plant diseases and healthy leaves
+🔍 Detects 10 classes including common tomato leaf diseases and healthy leaves
 
 🌐 Language support: English & Hindi
 
 📊 Shows prediction confidence (%)
 
-💡 Provides treatment tips and prevention methods for each disease
+💡 Provides treatment tips and prevention methods
 
 🧪 Disease Classes
 
@@ -39,10 +39,24 @@ Healthy
 
 🛠️ Tech Stack
 
-Streamlit – Web UI
+Streamlit – Web interface
 
-Keras (TensorFlow backend) – Deep Learning model (VGG16)
+TensorFlow / Keras – Deep learning models (VGG16, MobileNetV2)
 
 Pillow (PIL) – Image processing
 
 NumPy – Numerical computations
+
+🔽 Download Pre-trained Models
+
+The trained models are too large for GitHub. Please download them from Google Drive:
+
+👉 Download Models (VGG16.h5 & MobileNetV2.h5)
+
+After downloading, place the files in the project root directory.
+
+⚠️ Without these model files, the app will not be able to make predictions.
+
+🚀 How to Run
+
+Clone the repository:
