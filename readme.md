@@ -1,9 +1,11 @@
-🍅 Tomato Leaf Disease Detection
+<div><div>🍅 Tomato Leaf Disease Detection
 <p align="center"> <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs41348-022-00608-5/MediaObjects/41348_2022_608_Fig1_HTML.jpg" alt="Tomato Leaf Disease Example" width="600"> </p>
 
 A Streamlit web application that uses deep learning models (VGG16 and MobileNetV2) to classify tomato leaf images into different disease categories or as healthy.
 The app supports English & Hindi and provides disease-specific treatment suggestions.
+</div>
 
+<div>
 ✨ Features
 
 📤 Upload tomato leaf images (.jpg, .jpeg, .png)
@@ -37,7 +39,8 @@ The app supports English & Hindi and provides disease-specific treatment suggest
 🧩 Mosaic Virus
 
 ✅ Healthy
-
+</div>
+<div>
 🛠️ Tech Stack
 
 Streamlit – Web interface
@@ -47,6 +50,9 @@ TensorFlow / Keras – Deep learning models (VGG16, MobileNetV2)
 Pillow (PIL) – Image processing
 
 NumPy – Numerical computations
+</div>
+
+<div>
 
 🔽 Download Pre-trained Models
 
