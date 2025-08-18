@@ -62,3 +62,14 @@ Without these files, the app **cannot make predictions**.
    ```bash
    git clone https://github.com/your-username/tomato-leaf-disease-detection.git
    cd tomato-leaf-disease-detection
+2. **Install dependecies**
+   ```bash
+   pip install -r requirements.txt
+1. **Run the Streamlit app**
+   ```bash
+   streamlit run app.py
+   
+📌 Future Improvements
+    -🖼️ Add Grad-CAM visualizations for better explainability
+    -🌱 Extend support to other crops
+    -📱 Deploy as a mobile-friendly app
