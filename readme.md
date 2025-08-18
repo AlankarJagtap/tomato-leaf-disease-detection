@@ -69,7 +69,7 @@ Without these files, the app **cannot make predictions**.
    ```bash
    streamlit run app.py
    
-📌 Future Improvements
-    -🖼️ Add Grad-CAM visualizations for better explainability
-    -🌱 Extend support to other crops
-    -📱 Deploy as a mobile-friendly app
+##📌 Future Improvements
+- S🖼️ Add Grad-CAM visualizations for better explainability
+- 🌱 Extend support to other crops
+- 📱 Deploy as a mobile-friendly app
