@@ -1,69 +1,64 @@
-<div><div>🍅 Tomato Leaf Disease Detection
-<p align="center"> <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs41348-022-00608-5/MediaObjects/41348_2022_608_Fig1_HTML.jpg" alt="Tomato Leaf Disease Example" width="600"> </p>
+# 🍅 Tomato Leaf Disease Detection
 
-A Streamlit web application that uses deep learning models (VGG16 and MobileNetV2) to classify tomato leaf images into different disease categories or as healthy.
-The app supports English & Hindi and provides disease-specific treatment suggestions.
-</div>
+<p align="center">
+  <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs41348-022-00608-5/MediaObjects/41348_2022_608_Fig1_HTML.jpg" 
+       alt="Tomato Leaf Disease Example" width="600">
+</p>
 
-<div>
-✨ Features
+A **Streamlit web application** that uses deep learning models (**VGG16** and **MobileNetV2**) to classify tomato leaf images into multiple disease categories or as **healthy**.  
+The app supports **English & Hindi** 🌐 and provides **disease-specific treatment suggestions**.
 
-📤 Upload tomato leaf images (.jpg, .jpeg, .png)
+---
 
-🔍 Detects 10 tomato leaf disease classes + healthy leaves
+## ✨ Features
 
-🌐 Bilingual support: English & हिन्दी
+- 📤 Upload tomato leaf images (`.jpg`, `.jpeg`, `.png`)
+- 🔍 Detects **10 tomato leaf diseases** + healthy leaves
+- 🌐 Bilingual support: **English & हिन्दी**
+- 📊 Displays **prediction confidence (%)**
+- 💡 Provides **treatment & prevention tips**
 
-📊 Displays prediction confidence (%)
+---
 
-💡 Provides treatment & prevention tips
+## 🧪 Disease Classes
 
-🧪 Disease Classes
+- 🦠 Bacterial Spot  
+- 🍂 Early Blight  
+- 🍁 Late Blight  
+- 🌫️ Leaf Mold  
+- 🔴 Septoria Leaf Spot  
+- 🕷️ Two-Spotted Spider Mite  
+- 🎯 Target Spot  
+- 🍃 Yellow Leaf Curl Virus  
+- 🧩 Mosaic Virus  
+- ✅ Healthy  
 
-🦠 Bacterial Spot
+---
 
-🍂 Early Blight
+## 🛠️ Tech Stack
 
-🍁 Late Blight
+- **Streamlit** – Web interface  
+- **TensorFlow / Keras** – Deep learning models (VGG16, MobileNetV2)  
+- **Pillow (PIL)** – Image processing  
+- **NumPy** – Numerical computations  
 
-🌫️ Leaf Mold
+---
 
-🔴 Septoria Leaf Spot
+## 🔽 Download Pre-trained Models
 
-🕷️ Two-Spotted Spider Mite
+⚠️ The trained models are too large for GitHub.  
+Please download them from **Google Drive**:
 
-🎯 Target Spot
+👉 [Download Models (VGG16.h5 & MobileNetV2.h5)](https://drive.google.com/drive/folders/1iO95xNg87nOhkJXlhI3yj2lxn2nf-2U8?usp=sharing)  
 
-🍃 Yellow Leaf Curl Virus
+After downloading, place the files in the **project root directory**.  
+Without these files, the app **cannot make predictions**.  
 
-🧩 Mosaic Virus
+---
 
-✅ Healthy
-</div>
-<div>
-🛠️ Tech Stack
+## 🚀 How to Run Locally
 
-Streamlit – Web interface
-
-TensorFlow / Keras – Deep learning models (VGG16, MobileNetV2)
-
-Pillow (PIL) – Image processing
-
-NumPy – Numerical computations
-</div>
-
-<div>
-
-🔽 Download Pre-trained Models
-
-The trained models are too large for GitHub. Please download them from Google Drive:
-
-👉 Download Models (VGG16.h5 & MobileNetV2.h5)
-
-After downloading, place the files in the project root directory.
-
-⚠️ Without these files, the app cannot make predictions.
-
-🚀 How to Run Locally
-
-Clone the repository:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/tomato-leaf-disease-detection.git
+   cd tomato-leaf-disease-detection
